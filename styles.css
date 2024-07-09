@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.instagram-post {
+    width: 600px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    border-radius: 3px;
+
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.post-info {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.username {
+    font-weight: bold;
+    display: block;
+}
+
+.location {
+    color:  black;
+}
+
+.menu-dots {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-dots span {
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 2px 0;
+}
+
+.post-image img {
+    width: 100%;
+    display: block;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.buttons-left {
+    display: flex;
+}
+
+.button img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button-right {
+    display: flex;
+}
+
+.post-description {
+    padding: 3px;
+}
+
+
