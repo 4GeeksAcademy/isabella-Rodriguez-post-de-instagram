@@ -64,30 +64,24 @@ body {
     display: block;
 }
 
-.post-footer {
+div.instagram-post .texto .post-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 33px;
     display: flex;
+    gap: 5px;
+    padding:0px 7px;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
+  }
 
-.buttons-left {
-    display: flex;
-}
-
-.button img {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-.button-right {
-    display: flex;
-}
+ /* div.texto    i:last-child {
+    padding-left: 77%
+} */
 
 .post-description {
     padding: 3px;
 }
+
+
 
 
